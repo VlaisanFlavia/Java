@@ -7,7 +7,7 @@
 3. **Canvas (Drawing Panel):** Draws grid lines based on configuration.
 4. **Control Panel:** Manages the game with buttons (Load, Save, Exit, etc.).
 
-## Homework Features (
+## Homework Features 
 
 1. **Object-Oriented Model:** Creation of the object-oriented model for the game.
 2. **Game Initialization:** Generates random sticks and places them on the board.
