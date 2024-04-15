@@ -1,38 +1,41 @@
-Vehicle Sharing Application
+***********************************
+*   Vehicle Sharing Application   *
+***********************************
+
+**Problem Description**
+
 The Vehicle Sharing Application facilitates the arrangement of carpooling, car-sharing, or ride-sharing among a group of people to reach a common destination.
 
-Problem Description
-Participants in the arrangement are divided into drivers and passengers, with each person having a specific destination. Drivers are willing to pick up passengers who have the same destination along their route. The goal is to maximize the number of successful matches between drivers and passengers.
+**Compulsory Features**
 
-Compulsory Features
-Maven Project:
+1. **Maven Project:**
+   - Project setup using Maven for easy dependency management.
 
-Project setup using Maven for easy dependency management.
-Object-Oriented Model:
+2. **Object-Oriented Model:**
+   - Classes to represent persons (drivers and passengers) and destinations.
 
-Classes to represent persons (drivers and passengers) and destinations.
-Random Person Generation:
+3. **Random Person Generation:**
+   - Generation of a random group of persons.
+   - Usage of Java streams to filter drivers and passengers.
 
-Generation of a random group of persons.
-Usage of Java streams to filter drivers and passengers.
-Driver List Sorting:
+4. **Driver List Sorting:**
+   - All drivers stored in a LinkedList and sorted by their age.
 
-All drivers stored in a LinkedList and sorted by their age.
-Passenger Set Sorting:
+5. **Passenger Set Sorting:**
+   - All passengers stored in a TreeSet and sorted by their name.
 
-All passengers stored in a TreeSet and sorted by their name.
-Homework Features
-Problem Description Class:
+**Homework Features**
 
-Class describing the problem and its solution approach.
-Java Stream API Usage:
+1. **Problem Description Class:**
+   - Class describing the problem and its solution approach.
 
-Utilization of Java Stream API to:
-Compute a list of destinations that drivers pass through.
-Compute a map of destinations and people who want to go there.
-Third-Party Library Integration:
+2. **Java Stream API Usage:**
+   - Utilization of Java Stream API to:
+     - Compute a list of destinations that drivers pass through.
+     - Compute a map of destinations and people who want to go there.
 
-Integration of a third-party library to generate random fake names for persons and destinations.
-Greedy Algorithm Implementation:
+3. **Third-Party Library Integration:**
+   - Integration of a third-party library to generate random fake names for persons and destinations.
 
-Creation of a greedy algorithm to solve the matching problem efficiently.
+4. **Greedy Algorithm Implementation:**
+   - Creation of a greedy algorithm to solve the matching problem efficiently.
