@@ -1,4 +1,4 @@
-#Vehicle Sharing Application
+Vehicle Sharing Application
 The Vehicle Sharing Application facilitates the arrangement of carpooling, car-sharing, or ride-sharing among a group of people to reach a common destination.
 
 Problem Description
